@@ -53,7 +53,7 @@
     },
     "plugins": {
         "updater": {
-            "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEI0MkI3NDVCOUM2NDE1QTgKUldTb0ZXU2NXM1FydEsrN29Edjg2c0kxZmk1YWpRa3ZUMjE1S2NLeGVFRkJRWW1SSnhXQ2F3S0EK",
+            "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDYxOEEzREY4RTU4Q0YzNUIKUldSYjg0emwrRDJLWWFUclBzTlV3TnRGUk5IQzJQcGM3c3FZNTNZSTg5TW5HNU9Xd25BL293MVoK",
             "endpoints": [
                 "https://gh-proxy.com/github.com/Sjj1024/PakePlus/releases/latest/download/ppupdate.json",
                 "https://files.pakeplus.com/ppupdate.json"
