@@ -16,7 +16,8 @@ export const webBranch = 'web2'
 export const devBranch = 'dev'
 
 // global file size limit
-export const fileSizeLimit = 1024 * 1024 * 10
+//修改大小 100Mb
+export const fileSizeLimit = 1024 * 1024 * 100
 
 // urlMap
 export const urlMap = {
@@ -1128,7 +1129,9 @@ export const checkLastPublish = () => {
     const now = new Date()
     const oneHourAfterClick = new Date(savedTime)
     oneHourAfterClick.setHours(oneHourAfterClick.getHours() + 1)
-    return now < oneHourAfterClick
+    // 跳过限制
+    return false
+    // return now < oneHourAfterClick
 }
 
 // check update

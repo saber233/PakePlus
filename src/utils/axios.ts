@@ -27,7 +27,8 @@ http.interceptors.response.use(
             used: res.headers['x-ratelimit-used'],
         }
         // 如果已使用超过1000次，显示错误
-        if (rateLimit.used > 1000) {
+        // 增加次数 100000
+        if (rateLimit.used > 100000) {
             oneMessage.error(i18n.global.t('apiLimit'))
         }
         return Promise.resolve(res)
